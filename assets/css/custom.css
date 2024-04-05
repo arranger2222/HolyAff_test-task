@@ -1,0 +1,23 @@
+#comment-form {
+    display: flex;
+    flex-direction: column;
+}
+
+#comment-form textarea {
+    width: 100%;
+    border-radius: 5px;
+    resize: none;
+}
+
+.submitButton {
+    border: 2px solid #f0f0f0;
+    background-color:#ed9220; 
+    border-radius: 10px;
+    box-shadow: 0 1px 4px 0 rgba(0,0,0,.74);
+    padding: 5px 0;
+    color: #fff;
+}
+
+.submitButton:disabled {
+    background-color:#c3c3c3;
+}
